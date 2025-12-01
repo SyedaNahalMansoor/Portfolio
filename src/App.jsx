@@ -18,7 +18,7 @@ export default function App() {
       tech: "HTML, CSS , Javascipt",
       link: "https://github.com/SyedaNahalMansoor/To-do-App",
       img: todoImg,
-      view: "https://my-todo-app.netlify.app"
+      view: "https://syedanahalmansoor.github.io/To-do-App/"
     },
     {
       id: 2,
@@ -26,7 +26,9 @@ export default function App() {
       desc: "Simulates ATM transactions: check balance, withdraw, deposit.",
       tech: "HTML , CSS , Javascript",
       link: "https://github.com/SyedaNahalMansoor/Simple-ATM-Machine",
-      img: atmImg
+      img: atmImg,
+      view: "https://syedanahalmansoor.github.io/Simple-ATM-Machine/"
+
     },
     {
       id: 3,
@@ -34,7 +36,8 @@ export default function App() {
       desc: "Timed quiz app with scoring system",
       tech: "HTML , CSS , JavaScript",
       link: "https://github.com/SyedaNahalMansoor/Quiz-App",
-      img: quiz
+      img: quiz,
+      view: "https://syedanahalmansoor.github.io/Quiz-App/"
     },
     {
       id: 4,
@@ -42,7 +45,8 @@ export default function App() {
       desc: "Simple QR Generator",
       tech: "JavaScript",
       link: "https://github.com/SyedaNahalMansoor/QR--Generator",
-      img: qr
+      img: qr,
+      view: "https://syedanahalmansoor.github.io/QR--Generator/"
     },
     {
       id: 5,
@@ -50,7 +54,8 @@ export default function App() {
       desc: "Chatbot AI with limited question (not responsive)",
       tech: "HTML , CSS , JavaScript",
       link: "https://github.com/SyedaNahalMansoor/ChatBot-AI",
-      img: chatBot
+      img: chatBot,
+      view: "https://syedanahalmansoor.github.io/ChatBot-AI/"
     },
     {
       id: 6,
@@ -58,7 +63,8 @@ export default function App() {
       desc: "Fetches data from external APIs and displays it dynamically on the web page.",
       tech: "JavaScript",
       link: "https://github.com/SyedaNahalMansoor/API-s-Projects-Recipe.com",
-      img: apiImg
+      img: apiImg,
+      view: "https://syedanahalmansoor.github.io/API-s-Projects-Recipe.com/"
     },
     {
       id: 7,
@@ -66,7 +72,8 @@ export default function App() {
       desc: "A note-taking ReactJS app with create, edit, and delete functionalities.",
       tech: "React.js",
       link: "https://github.com/SyedaNahalMansoor/Notebook-using-React-js",
-      img: nootbookImg
+      img: nootbookImg,
+      view: "https://syedanahalmansoor.github.io/Notebook-using-React-js/"
     }
   ];
 
