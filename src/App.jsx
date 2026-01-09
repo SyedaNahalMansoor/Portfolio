@@ -73,7 +73,7 @@ export default function App() {
       tech: "React.js",
       link: "https://github.com/SyedaNahalMansoor/Notebook-using-React-js",
       img: nootbookImg,
-      view: "https://syedanahalmansoor.github.io/Notebook-using-React-js/"
+      view: "https://syedanahalmansoor.github.io/Notebook-using-React-js/~"
     }
   ];
 
@@ -87,6 +87,7 @@ export default function App() {
             <a href="#hero">Home</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
+            <a href="#achievements">Certificates</a>
             <a href="#contact">Contact</a>
           </div>
         </div>
@@ -100,7 +101,7 @@ export default function App() {
             <p>Front-End Developer • Student</p>
             <div className="hero-btns">
               <a href="#projects" className="btn">My Work</a>
-              <a href="#contact" className="btn-outline">Sart Your Project Now!</a>
+              <a href="#contact" className="btn-outline">Make It Happen</a>
             </div>
           </div>
           <div className="hero-avatar">
@@ -141,6 +142,185 @@ export default function App() {
           ))}
         </div>
       </section>
+
+      {/* Achievements & Certifications */}
+      <section id="achievements" className="page achievements">
+        <h1>Achievements & Certifications</h1>
+      
+        <div className="cert-grid">
+          <div className="cert-card">
+            <img src="./src/assets/HTML_Essentials_certificate.jpg" alt="html cisco Certificate" />
+            <h3>HTML Essentials</h3>
+            <p>Earned HTML Essentials certificate from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/HTML_Essentials_certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/HTMLEssentials.jpg" alt="html cisco badge" />
+            <h3>HTML Essentials Badge</h3>
+            <p>Awarded HTML Essentials digital badge by Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/HTMLEssentials badge.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Badge
+            </a>
+          </div>
+
+
+          <div className="cert-card">
+            <img src="./src/assets/CSS_Essentials_certificate.jpg" alt="css cisco Certificate" />
+            <h3>CSS Essentials</h3>
+            <p>Completed CSS Essentials certification from Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/CSS_Essentials_certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/CSSEssentials.jpg" alt="css cisco badge" />
+            <h3>CSS Essentials Badge</h3>
+            <p>Received CSS Essentials badge from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/CSSEssentials badge.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Badge
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/JavaScript_Essentials_1_certificate.jpg" alt="javascript cisco Certificate" />
+            <h3>Javascript Essentials 1</h3>
+            <p>  Achieved JavaScript Essentials 1 certificate from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/JavaScript_Essentials_1_certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/JavaScriptEssentials1.jpg" alt="javascript cisco badge" />
+            <h3>Javascript Essentials 1 Badge</h3>
+            <p>Earned JavaScript Essentials 1 badge from Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
+            <a
+              href="./Certificates/JavaScript_Essentials_1_certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Badge
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/FemHack Hackathone.png" alt="femhack Certificate" />
+            <h3>FemHack-SMIT</h3>
+            <p>Participation in FEMHACK – Saylani Mass IT Training</p>
+            <a
+              href="./Certificates/Femhack Certificate.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/Syeda Nahal Mansoor-cit.jpg" alt="cit proproofs certificate" />
+            <h3>Operating Systems & Software Tools</h3>
+            <p> Completed Operating Systems: Applications and Software Tools certification quiz from ProProfs.</p>
+            <a
+              href="./Certificates/Syeda Nahal Mansoor cit.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/Syeda Nahal Mansoor-html.jpg" alt="html proproofs certificate" />
+            <h3>HTML Certification Quiz</h3>
+            <p>Successfully completed HTML certification quiz from ProProfs, validating core HTML concepts.</p>
+            <a
+              href="./Certificates/Syeda Nahal Mansoor html.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/Syeda Nahal Mansoor-css.jpg" alt="css proproofs certificate" />
+            <h3>CSS Certification Quiz</h3>
+            <p> Passed CSS certification quiz from ProProfs, covering styling and layout fundamentals.</p>
+            <a
+              href="./Certificates/Syeda Nahal Mansoor css.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div> 
+
+          <div className="cert-card">
+            <img src="./src/assets/Syeda Nahal Mansoor-js.jpg" alt="js proproofs certificate" />
+            <h3>Javascript Test </h3>
+            <p>Successfully passed JavaScript test quiz from ProProfs, demonstrating understanding of core JS concepts.</p>
+            <a
+              href="./Certificates/Syeda Nahal Mansoor js.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+
+          <div className="cert-card">
+            <img src="./src/assets/Syeda Nahal Mansoor-bootstrap.jpg" alt="bootstrap proproofs certificate" />
+            <h3>Bootstrap Advanced</h3>
+            <p>Achieved advanced Bootstrap certification from ProProfs, focusing on responsive and modern UI development.</p>
+            <a
+              href="./Certificates/Syeda Nahal Mansoor bootstrap.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-small"
+            >
+              View Certificate
+            </a>
+          </div>
+      
+          
+        </div>
+      </section>
+
 
       {/* Contact */}
       <section id="contact" className="page contact">
