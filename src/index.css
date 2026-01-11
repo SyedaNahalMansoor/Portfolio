@@ -123,10 +123,12 @@ h3 {
   text-align: center;
 }
 .projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 20px;
+ display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 30px;
+   max-width: 1200px;
+  margin: 30px auto 0;
 }
 .project-card {
   background: #fff;
@@ -308,7 +310,7 @@ h3 {
 }
 
 @media (max-width: 1024px) {
-  .cert-grid {
+  .projects-grid , .cert-grid {
     grid-template-columns: repeat(3, 1fr);
   }
   .nav-links a{
@@ -324,13 +326,13 @@ h3 {
   .nav-links a {
     margin-left: 1.1rem;
   }
-  .cert-grid {
+  .projects-grid , .cert-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 425px) {
-  .cert-grid {
+  .projects-grid , .cert-grid {
     grid-template-columns: 1fr;
   }
   .nav-links a{

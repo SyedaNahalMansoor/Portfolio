@@ -8,11 +8,21 @@ import nootbookImg from "./assets/nootbook.png";
 import chatBot from "./assets/chatbot.png";
 import quiz from "./assets/quiz.png";
 import qr from "./assets/qr.png";
+import color from "./assets/color.png"
 
 export default function App() {
   const projects = [
     {
       id: 1,
+      title: "Color Picker",
+      desc: "A simple app Color Picker",
+      tech: "HTML, CSS , Javascipt",
+      link: "https://github.com/SyedaNahalMansoor/Color-Picker",
+      img: color,
+      view: "https://syedanahalmansoor.github.io/Color-Picker/"
+    },
+    {
+      id: 2,
       title: "Todo App",
       desc: "A simple app to manage daily tasks with add, delete.",
       tech: "HTML, CSS , Javascipt",
@@ -21,7 +31,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/To-do-App/"
     },
     {
-      id: 2,
+      id: 3,
       title: "Simple ATM Machine",
       desc: "Simulates ATM transactions: check balance, withdraw, deposit.",
       tech: "HTML , CSS , Javascript",
@@ -31,7 +41,7 @@ export default function App() {
 
     },
     {
-      id: 3,
+      id: 4,
       title: "Quiz App JS",
       desc: "Timed quiz app with scoring system",
       tech: "HTML , CSS , JavaScript",
@@ -40,7 +50,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/Quiz-App/"
     },
     {
-      id: 4,
+      id: 5,
       title: "QR-Generator",
       desc: "Simple QR Generator",
       tech: "JavaScript",
@@ -49,7 +59,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/QR--Generator/"
     },
     {
-      id: 5,
+      id: 6,
       title: "Cahtbot AI",
       desc: "Chatbot AI with limited question (not responsive)",
       tech: "HTML , CSS , JavaScript",
@@ -58,7 +68,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/ChatBot-AI/"
     },
     {
-      id: 6,
+      id: 7,
       title: "API Project",
       desc: "Fetches data from external APIs and displays it dynamically on the web page.",
       tech: "JavaScript",
@@ -67,13 +77,13 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/API-s-Projects-Recipe.com/"
     },
     {
-      id: 7,
+      id: 8,
       title: "NootBook",
       desc: "A note-taking ReactJS app with create, edit, and delete functionalities.",
       tech: "React.js",
       link: "https://github.com/SyedaNahalMansoor/Notebook-using-React-js",
       img: nootbookImg,
-      view: "https://syedanahalmansoor.github.io/Notebook-using-React-js/~"
+      view: "https://syedanahalmansoor.github.io/Notebook-using-React-js/"
     }
   ];
 
@@ -114,8 +124,7 @@ export default function App() {
       <section id="about" className="page about">
         <h1>About Me</h1>
         <p>
-          I am a front-end developer learning React, JavaScript, HTML & CSS.  
-          I love creating clean, colorful, and interactive web pages,currently a student at Saylani Mass IT Training.
+          Hi! I’m Syeda Nahal Mansoor, a passionate Web Developer and Computer Science student. I love creating clean, functional, and visually appealing websites, turning ideas into real projects. With hands-on experience in HTML, CSS, JavaScript, and C++, I enjoy learning new technologies and building projects that solve real problems. My goal is to grow as a developer, contribute to impactful projects, and showcase my skills through innovative and modern web solutions.
         </p>
       </section>
 
@@ -130,7 +139,7 @@ export default function App() {
               <p>{p.desc}</p>
               <small>{p.tech}</small>
               <div className="project-links">
-                <a href={p.github} target="_blank" rel="noopener noreferrer" className="btn-icon">
+                <a href={p.link} target="_blank" rel="noopener noreferrer" className="btn-icon">
                   <FaGithub />
                 </a>
                 <a href={p.view} target="_blank" rel="noopener noreferrer" className="btn btn-small">
@@ -224,7 +233,7 @@ export default function App() {
             <h3>Javascript Essentials 1 Badge</h3>
             <p>Earned JavaScript Essentials 1 badge from Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
             <a
-              href="./Certificates/JavaScript_Essentials_1_certificate.pdf"
+              href="./Certificates/JavaScriptEssentials1 badge.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-small"
