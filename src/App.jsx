@@ -9,6 +9,7 @@ import chatBot from "./assets/chatbot.png";
 import quiz from "./assets/quiz.png";
 import qr from "./assets/qr.png";
 import color from "./assets/color.png"
+import HTMLcert from "./assets/HTML_Essentials_certificate.jpg"
 
 export default function App() {
   const projects = [
@@ -158,7 +159,7 @@ export default function App() {
       
         <div className="cert-grid">
           <div className="cert-card">
-            <img src="./src/assets/HTML_Essentials_certificate.jpg" alt="html cisco Certificate" />
+            <img src={HTMLcert} alt="html cisco Certificate" />
             <h3>HTML Essentials</h3>
             <p>Earned HTML Essentials certificate from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
             <a
