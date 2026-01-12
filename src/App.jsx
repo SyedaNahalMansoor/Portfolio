@@ -10,6 +10,13 @@ import quiz from "./assets/quiz.png";
 import qr from "./assets/qr.png";
 import color from "./assets/color.png"
 import HTMLcert from "./assets/HTML_Essentials_certificate.jpg"
+import CSScert from "./assets/CSS_Essentials_certificate.jpg"
+import Jscert from "./assets/JavaScript_Essentials_1_certificate.jpg"
+import HTMLb from "./assets/HTMLEssentials.jpg"
+import CSSb from "./assets/CSSEssentials.jpg"
+import Jsb from "./assets/JavaScriptEssentials1.jpg"
+import Femhack from "./assets/FemHack Hackathone.png"
+import cit from "/assets/Syeda Syeda Nahal Mansoor-cit.jpg"
 
 export default function App() {
   const projects = [
@@ -173,7 +180,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/HTMLEssentials.jpg" alt="html cisco badge" />
+            <img src={HTMLb}/>
             <h3>HTML Essentials Badge</h3>
             <p>Awarded HTML Essentials digital badge by Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
             <a
@@ -188,7 +195,7 @@ export default function App() {
 
 
           <div className="cert-card">
-            <img src="./src/assets/CSS_Essentials_certificate.jpg" alt="css cisco Certificate" />
+            <img src={CSScert}/>
             <h3>CSS Essentials</h3>
             <p>Completed CSS Essentials certification from Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
             <a
@@ -202,7 +209,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/CSSEssentials.jpg" alt="css cisco badge" />
+            <img src={CSSb} />
             <h3>CSS Essentials Badge</h3>
             <p>Received CSS Essentials badge from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
             <a
@@ -216,7 +223,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/JavaScript_Essentials_1_certificate.jpg" alt="javascript cisco Certificate" />
+            <img src={Jscert} alt="javascript cisco Certificate" />
             <h3>Javascript Essentials 1</h3>
             <p>  Achieved JavaScript Essentials 1 certificate from Cisco Networking Academy through Saylani Mass IT Training (SMIT).</p>
             <a
@@ -230,7 +237,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/JavaScriptEssentials1.jpg" alt="javascript cisco badge" />
+            <img src={Jsb} alt="javascript cisco badge" />
             <h3>Javascript Essentials 1 Badge</h3>
             <p>Earned JavaScript Essentials 1 badge from Cisco Networking Academy via Saylani Mass IT Training (SMIT).</p>
             <a
@@ -244,7 +251,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/FemHack Hackathone.png" alt="femhack Certificate" />
+            <img src={Femhack} alt="femhack Certificate" />
             <h3>FemHack-SMIT</h3>
             <p>Participation in FEMHACK – Saylani Mass IT Training</p>
             <a
@@ -258,7 +265,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/Syeda Nahal Mansoor-cit.jpg" alt="cit proproofs certificate" />
+            <img src={cit} alt="cit proproofs certificate" />
             <h3>Operating Systems & Software Tools</h3>
             <p> Completed Operating Systems: Applications and Software Tools certification quiz from ProProfs.</p>
             <a
