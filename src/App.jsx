@@ -9,6 +9,10 @@ import chatBot from "./assets/chatbot.png";
 import quiz from "./assets/quiz.png";
 import qr from "./assets/qr.png";
 import color from "./assets/color.png"
+import dynamic from "./assets/dynamic.png"
+import hackathon from "./assets/hackathon.png"
+import portal from "./assets/portal.png"
+import vionex from "./assets/vionex.png"
 import HTMLcert from "./assets/HTML_Essentials_certificate.jpg"
 import CSScert from "./assets/CSS_Essentials_certificate.jpg"
 import Jscert from "./assets/JavaScript_Essentials_1_certificate.jpg"
@@ -16,30 +20,53 @@ import HTMLb from "./assets/HTMLEssentials.jpg"
 import CSSb from "./assets/CSSEssentials.jpg"
 import Jsb from "./assets/JavaScriptEssentials1.jpg"
 import Femhack from "./assets/FemHack Hackathone.png"
-import cit from "/assets/Syeda Syeda Nahal Mansoor-cit.jpg"
+import cit from "./assets/Syeda Nahal Mansoor-cit.jpg"
+import html from "./assets/Syeda Nahal Mansoor-html.jpg"
+import css from "./assets/Syeda Nahal Mansoor-css.jpg"
+import js from "./assets/Syeda Nahal Mansoor-js.jpg"
+import bootstrap from "./assets/Syeda Nahal Mansoor-bootstrap.jpg"
 
 export default function App() {
   const projects = [
+    
     {
       id: 1,
+      title: "Vionex Animation",
+      desc: "A singal page service provider website",
+      tech: "HTML, CSS , Javascript , React.js , Firebase",
+      link: "https://github.com/SyedaNahalMansoor/Vionex-Animation",
+      img: vionex,
+      view: "https://syedanahalmansoor.github.io/Vionex-Animation/"
+    },
+    {
+      id: 2,
+      title: "Student Portal Hackathon at SMIT",
+      desc: "A portal where user can do login/signup , add , edit , delete.",
+      tech: "HTML, CSS , Javascript , React.js , Firebase",
+      link: "https://github.com/SyedaNahalMansoor/Student-Portal-Hackathon",
+      img: hackathon,
+      view: "https://student-portal-hackathon.vercel.app/"
+    },
+    {
+      id: 3,
       title: "Color Picker",
       desc: "A simple app Color Picker",
-      tech: "HTML, CSS , Javascipt",
+      tech: "HTML, CSS , Javascript",
       link: "https://github.com/SyedaNahalMansoor/Color-Picker",
       img: color,
       view: "https://syedanahalmansoor.github.io/Color-Picker/"
     },
     {
-      id: 2,
+      id: 4,
       title: "Todo App",
       desc: "A simple app to manage daily tasks with add, delete.",
-      tech: "HTML, CSS , Javascipt",
+      tech: "HTML, CSS , Javasrcipt",
       link: "https://github.com/SyedaNahalMansoor/To-do-App",
       img: todoImg,
       view: "https://syedanahalmansoor.github.io/To-do-App/"
     },
     {
-      id: 3,
+      id: 5,
       title: "Simple ATM Machine",
       desc: "Simulates ATM transactions: check balance, withdraw, deposit.",
       tech: "HTML , CSS , Javascript",
@@ -49,7 +76,7 @@ export default function App() {
 
     },
     {
-      id: 4,
+      id: 6,
       title: "Quiz App JS",
       desc: "Timed quiz app with scoring system",
       tech: "HTML , CSS , JavaScript",
@@ -58,7 +85,16 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/Quiz-App/"
     },
     {
-      id: 5,
+      id: 7,
+      title: "Student Portal System",
+      desc: "Student Portal system can edit,add,delete + login/signup authentication",
+      tech: "HTML, CSS , Javascript , Firebase",
+      link: "https://github.com/SyedaNahalMansoor/Student-Portal-Firebase",
+      img: portal,
+      view: "https://syedanahalmansoor.github.io/Student-Portal-Firebase/"
+    },
+    {
+      id: 8,
       title: "QR-Generator",
       desc: "Simple QR Generator",
       tech: "JavaScript",
@@ -67,7 +103,16 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/QR--Generator/"
     },
     {
-      id: 6,
+      id: 9,
+      title: "Dynamic Student Card System",
+      desc: "A simple student card system where you can add or delete students.",
+      tech: "HTML, CSS , Javasrcipt",
+      link: "https://github.com/SyedaNahalMansoor/Dynamic-Student-Card-System",
+      img: dynamic,
+      view: "https://syedanahalmansoor.github.io/Dynamic-Student-Card-System/"
+    },
+    {
+      id: 10,
       title: "Cahtbot AI",
       desc: "Chatbot AI with limited question (not responsive)",
       tech: "HTML , CSS , JavaScript",
@@ -76,7 +121,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/ChatBot-AI/"
     },
     {
-      id: 7,
+      id: 11,
       title: "API Project",
       desc: "Fetches data from external APIs and displays it dynamically on the web page.",
       tech: "JavaScript",
@@ -85,7 +130,7 @@ export default function App() {
       view: "https://syedanahalmansoor.github.io/API-s-Projects-Recipe.com/"
     },
     {
-      id: 8,
+      id: 12,
       title: "NootBook",
       desc: "A note-taking ReactJS app with create, edit, and delete functionalities.",
       tech: "React.js",
@@ -135,6 +180,59 @@ export default function App() {
           Hi! I’m Syeda Nahal Mansoor, a passionate Web Developer and Computer Science student. I love creating clean, functional, and visually appealing websites, turning ideas into real projects. With hands-on experience in HTML, CSS, JavaScript, and C++, I enjoy learning new technologies and building projects that solve real problems. My goal is to grow as a developer, contribute to impactful projects, and showcase my skills through innovative and modern web solutions.
         </p>
       </section>
+
+      {/* Skills */}
+      <section id="skills" className="page skills">
+        <h1>Skills</h1>
+      
+        <div className="skills-grid">
+          <div className="skill-card">
+            <h3>HTML5</h3>
+            <p>Strong command on semantic HTML and clean structure.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>CSS3</h3>
+            <p>Excellent in Flexbox, Grid, responsive layouts and UI design.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>JavaScript</h3>
+            <p>Very good understanding of DOM, events and logic building.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>Bootstrap</h3>
+            <p>Confident with Bootstrap grid system and components.</p>
+          </div>
+
+          <div className="skill-card">
+            <h3>Firebase</h3>
+            <p>Beginner-level experience with Firebase authentication, basic database usage, and project setup.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>Git & GitHub</h3>
+            <p>Comfortable with version control, commits and deployment.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>React.js</h3>
+            <p>Beginner-friendly experience with components and hooks.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>Node.js</h3>
+            <p>Beginner-level knowledge of backend fundamentals.</p>
+          </div>
+      
+          <div className="skill-card">
+            <h3>MongoDB</h3>
+            <p>Basic understanding of databases and collections.</p>
+          </div>
+        </div>
+      </section>
+
 
       {/* Projects */}
       <section id="projects" className="page projects">
@@ -279,7 +377,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/Syeda Nahal Mansoor-html.jpg" alt="html proproofs certificate" />
+            <img src={html} alt="html proproofs certificate" />
             <h3>HTML Certification Quiz</h3>
             <p>Successfully completed HTML certification quiz from ProProfs, validating core HTML concepts.</p>
             <a
@@ -293,7 +391,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/Syeda Nahal Mansoor-css.jpg" alt="css proproofs certificate" />
+            <img src={css}/>
             <h3>CSS Certification Quiz</h3>
             <p> Passed CSS certification quiz from ProProfs, covering styling and layout fundamentals.</p>
             <a
@@ -307,7 +405,7 @@ export default function App() {
           </div> 
 
           <div className="cert-card">
-            <img src="./src/assets/Syeda Nahal Mansoor-js.jpg" alt="js proproofs certificate" />
+            <img src={js} alt="js proproofs certificate" />
             <h3>Javascript Test </h3>
             <p>Successfully passed JavaScript test quiz from ProProfs, demonstrating understanding of core JS concepts.</p>
             <a
@@ -321,7 +419,7 @@ export default function App() {
           </div>
 
           <div className="cert-card">
-            <img src="./src/assets/Syeda Nahal Mansoor-bootstrap.jpg" alt="bootstrap proproofs certificate" />
+            <img src={bootstrap} alt="bootstrap proproofs certificate" />
             <h3>Bootstrap Advanced</h3>
             <p>Achieved advanced Bootstrap certification from ProProfs, focusing on responsive and modern UI development.</p>
             <a
