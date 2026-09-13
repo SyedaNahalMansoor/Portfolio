@@ -12,7 +12,7 @@ import Shoot from "./assets/Shoot.png";
 import TSA from "./assets/TSA.png";
 import Resume from "./assets/Resume.png";
 import Rock from "./assets/Rock.png";
-import Cafe from "./assets/cafe.png";
+import Cafe from "./assets/Cafe.png";
 import HTMLcert from "./assets/HTML_Essentials_certificate.jpg";
 import CSScert from "./assets/CSS_Essentials_certificate.jpg";
 import Jscert from "./assets/JavaScript_Essentials_1_certificate.jpg";
